@@ -1,5 +1,3 @@
--- solution: 9496801
-
 import Text.Megaparsec
 import Text.Megaparsec.Char
 

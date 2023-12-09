@@ -1,5 +1,3 @@
-// solution: 80253814
-
 #include <bits/stdc++.h>
 
 int main(int argc, char *argv[]) {

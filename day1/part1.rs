@@ -1,5 +1,3 @@
-// solution: 53080
-
 use std::fs;
 
 fn main() {
