@@ -39,7 +39,7 @@ type Input = [(Float, Float)]
 solve :: Input -> Int
 solve input = foldr (*) 1 $ map solve2 input
   where
-    solve2 (t, d) = logx $ high - low + 1
+    solve2 (t, d) = high - low + 1
       where
         disc = sqrt       $ t*t - 4*d
         low  = ceiling $ (t - disc) / 2 + 0.0001

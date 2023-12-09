@@ -39,7 +39,7 @@ type Input = (Double, Double)
 solve :: Input -> Int
 solve (t, d) = high - low + 1
   where
-    disc = logx $ sqrt       $ t*t - 4*d
+    disc = sqrt       $ t*t - 4*d
     low  = ceiling $ (t - disc) / 2 + 0.0001
     high = floor   $ (t + disc) / 2 - 0.0001
 

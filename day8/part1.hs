@@ -72,8 +72,8 @@ get_input file_name = do
 
 main :: IO()
 main = do
-  input <- get_input "example1"
-  print $ input
+  input <- get_input "input"
+  -- print $ input
   print $ solve input
 
   return ()

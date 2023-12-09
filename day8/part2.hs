@@ -117,8 +117,8 @@ get_input file_name = do
 
 main :: IO()
 main = do
-  input@(Input lr map) <- get_input "example3"
-  print $ input
-  -- print $ solve input
+  input@(Input lr map) <- get_input "input"
+  -- print $ input
+  print $ solve input
 
   return ()
